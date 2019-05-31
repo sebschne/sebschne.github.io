@@ -1,14 +1,178 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Academic</title>
+    <title>Authors on Dr.-Ing. Sebastian Schneider</title>
     <link>https://sebschne.github.io/authors/</link>
-    <description>Recent content in Authors on Academic</description>
+    <description>Recent content in Authors on Dr.-Ing. Sebastian Schneider</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sebschne.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arzu Guneysu</title>
+      <link>https://sebschne.github.io/authors/arzu-guneysu/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/arzu-guneysu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carlos A. Cifuentes</title>
+      <link>https://sebschne.github.io/authors/carlos-a.-cifuentes/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/carlos-a.-cifuentes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marcela Munera</title>
+      <link>https://sebschne.github.io/authors/marcela-munera/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/marcela-munera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sascha Griffiths</title>
+      <link>https://sebschne.github.io/authors/sascha-griffiths/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/sascha-griffiths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sebastian Schneider</title>
+      <link>https://sebschne.github.io/authors/sebastian-schneider/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/sebastian-schneider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Britta Wrede</title>
+      <link>https://sebschne.github.io/authors/britta-wrede/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/britta-wrede/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carlos Cifuentes</title>
+      <link>https://sebschne.github.io/authors/carlos-cifuentes/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/carlos-cifuentes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Franz Kummert</title>
+      <link>https://sebschne.github.io/authors/franz-kummert/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/franz-kummert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sascha S. Griffiths</title>
+      <link>https://sebschne.github.io/authors/sascha-s.-griffiths/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/sascha-s.-griffiths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stefan Wermter</title>
+      <link>https://sebschne.github.io/authors/stefan-wermter/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/stefan-wermter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andreas Kipp</title>
+      <link>https://sebschne.github.io/authors/andreas-kipp/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/andreas-kipp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michael Goerlich</title>
+      <link>https://sebschne.github.io/authors/michael-goerlich/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/michael-goerlich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ingmar Berger</title>
+      <link>https://sebschne.github.io/authors/ingmar-berger/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/ingmar-berger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luise Süssenbach</title>
+      <link>https://sebschne.github.io/authors/luise-s%C3%BCssenbach/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/luise-s%C3%BCssenbach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ingo Lütkebohle</title>
+      <link>https://sebschne.github.io/authors/ingo-l%C3%BCtkebohle/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/ingo-l%C3%BCtkebohle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Karola Pitsch</title>
+      <link>https://sebschne.github.io/authors/karola-pitsch/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/karola-pitsch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nina Riether</title>
+      <link>https://sebschne.github.io/authors/nina-riether/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/nina-riether/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sebastian Wrede</title>
+      <link>https://sebschne.github.io/authors/sebastian-wrede/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/authors/sebastian-wrede/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -16,8 +180,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sebschne.github.io/authors/admin/</guid>
-      <description>Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
+      <description>Sebastian Schneider studied Bioinformatics, Genome Research and Intelligent Systems at Bielefeld University, University of Helsinki and Aalto University. He received a B.Sc in Bioinformatics and Genome Research in 2009 and an M.Sc. in Intelligent Systems in 2011. Sebastian Schneider stayed in 2010 at Aldebaran Robotics in Paris to work on noise reduction techniques for embedded speech recognition systems. In his Master&amp;rsquo;s thesis, he investigated the effects of different assistive robot feedback strategies on participants during cognitive stress.</description>
     </item>
     
   </channel>

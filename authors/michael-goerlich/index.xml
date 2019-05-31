@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Goerlich on Dr.-Ing. Sebastian Schneider</title>
+    <link>https://sebschne.github.io/authors/michael-goerlich/</link>
+    <description>Recent content in Michael Goerlich on Dr.-Ing. Sebastian Schneider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sebschne.github.io/authors/michael-goerlich/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A framework for designing socially assistive robot interactions</title>
+      <link>https://sebschne.github.io/publication/2906906/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2906906/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reusable Motivational Instruction Patterns for Socially Assistive Robots</title>
+      <link>https://sebschne.github.io/publication/2787049/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2787049/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

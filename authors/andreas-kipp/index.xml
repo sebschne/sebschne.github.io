@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andreas Kipp on Dr.-Ing. Sebastian Schneider</title>
+    <link>https://sebschne.github.io/authors/andreas-kipp/</link>
+    <description>Recent content in Andreas Kipp on Dr.-Ing. Sebastian Schneider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sebschne.github.io/authors/andreas-kipp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Applied Social Robotics—Building Interactive Robots with LEGO Mindstorms</title>
+      <link>https://sebschne.github.io/publication/2906102/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2906102/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Robots for Long-Term Space Missions</title>
+      <link>https://sebschne.github.io/publication/2617293/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2617293/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

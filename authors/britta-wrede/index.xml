@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Britta Wrede on Dr.-Ing. Sebastian Schneider</title>
+    <link>https://sebschne.github.io/authors/britta-wrede/</link>
+    <description>Recent content in Britta Wrede on Dr.-Ing. Sebastian Schneider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sebschne.github.io/authors/britta-wrede/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PREC 2018. Personal Robots for Exercising and Coaching</title>
+      <link>https://sebschne.github.io/publication/2932683/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2932683/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of Different Robot Interaction Strategies During Cognitive Tasks</title>
+      <link>https://sebschne.github.io/publication/2906153/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2906153/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

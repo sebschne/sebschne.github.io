@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nina Riether on Dr.-Ing. Sebastian Schneider</title>
+    <link>https://sebschne.github.io/authors/nina-riether/</link>
+    <description>Recent content in Nina Riether on Dr.-Ing. Sebastian Schneider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
+    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sebschne.github.io/authors/nina-riether/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A robot as fitness companion: towards an interactive action-based motivation model</title>
+      <link>https://sebschne.github.io/publication/2683585/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2683585/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Socially Assistive Robots Supporting on Cognitive Tasks Perform</title>
+      <link>https://sebschne.github.io/publication/2709622/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2709622/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of Different Robot Interaction Strategies During Cognitive Tasks</title>
+      <link>https://sebschne.github.io/publication/2906153/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2906153/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Robots for Long-Term Space Missions</title>
+      <link>https://sebschne.github.io/publication/2617293/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/publication/2617293/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
