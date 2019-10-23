@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LTI on Sebastian Schneider</title>
+    <link>https://sebschne.github.io/tags/lti/</link>
+    <description>Recent content in LTI on Sebastian Schneider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sebschne.github.io/tags/lti/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Robot Exercising Coaches for Long-term Human-Robot Interaction</title>
+      <link>https://sebschne.github.io/projects/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/projects/internal-project/</guid>
+      <description>An example of using the in-built project page.</description>
+    </item>
+    
+  </channel>
+</rss>

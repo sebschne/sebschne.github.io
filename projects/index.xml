@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Sebastian Schneider</title>
+    <link>https://sebschne.github.io/projects/</link>
+    <description>Recent content in Projects on Sebastian Schneider</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sebschne.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Framework for Sociall Assistive Tasks</title>
+      <link>https://sebschne.github.io/projects/framework-sar/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/projects/framework-sar/</guid>
+      <description>An example of using the in-built project page.</description>
+    </item>
+    
+    <item>
+      <title>Classification and Prediction based on FACS</title>
+      <link>https://sebschne.github.io/projects/exhaustion-perception/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/projects/exhaustion-perception/</guid>
+      <description>An example of using the in-built project page.</description>
+    </item>
+    
+    <item>
+      <title>Preference Learning and Adaptation in HRI</title>
+      <link>https://sebschne.github.io/projects/preference-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/projects/preference-learning/</guid>
+      <description>An example of using the in-built project page.</description>
+    </item>
+    
+    <item>
+      <title>Robot Exercising Coaches for Long-term Human-Robot Interaction</title>
+      <link>https://sebschne.github.io/projects/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/projects/internal-project/</guid>
+      <description>An example of using the in-built project page.</description>
+    </item>
+    
+    <item>
+      <title>Socially Assistive Robots for Cognitive Tasks</title>
+      <link>https://sebschne.github.io/projects/sar-cognitive-task/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/projects/sar-cognitive-task/</guid>
+      <description>An example of using the in-built project page.</description>
+    </item>
+    
+    <item>
+      <title>User modellinge and stereotyping for cold-start problems in exercise recommendations</title>
+      <link>https://sebschne.github.io/projects/user-modelling-exercises/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sebschne.github.io/projects/user-modelling-exercises/</guid>
+      <description>An example of using the in-built project page.</description>
+    </item>
+    
+  </channel>
+</rss>

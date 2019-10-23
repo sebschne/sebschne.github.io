@@ -53,12 +53,12 @@
   </url>
   
   <url>
-    <loc>https://sebschne.github.io/</loc>
+    <loc>https://sebschne.github.io/authors/sebastian-schneider/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sebschne.github.io/authors/sebastian-schneider/</loc>
+    <loc>https://sebschne.github.io/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -115,6 +115,61 @@
   <url>
     <loc>https://sebschne.github.io/publication/2909463/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/projects/framework-sar/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/projects/exhaustion-perception/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/tags/hri/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/tags/lti/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/projects/preference-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/projects/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/projects/internal-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/tags/sar/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/projects/sar-cognitive-task/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/tags/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sebschne.github.io/projects/user-modelling-exercises/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -226,10 +281,6 @@
   
   <url>
     <loc>https://sebschne.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sebschne.github.io/tags/</loc>
   </url>
   
 </urlset>
