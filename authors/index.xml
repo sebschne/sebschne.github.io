@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Sebastian Schneider</title>
@@ -180,7 +180,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sebschne.github.io/authors/admin/</guid>
-      <description>Sebastian Schneider studied Bioinformatics, Genome Research and Intelligent Systems at Bielefeld University, University of Helsinki and Aalto University. He received a B.Sc in Bioinformatics and Genome Research in 2009 and an M.Sc. in Intelligent Systems in 2011. Sebastian Schneider stayed in 2010 at Aldebaran Robotics in Paris to work on noise reduction techniques for embedded speech recognition systems. In his Master&amp;rsquo;s thesis, he investigated the effects of different assistive robot feedback strategies on participants during cognitive stress.</description>
+      <description>I am currently a post-doc at the HRI Laboratoryat Kyoto Universityled by Prof. Kanda. Before joining Kyoto University, I studied Bioinformatics, Genome Research and Intelligent Systems at Bielefeld University, University of Helsinki and Aalto University. I received a B.Sc in Bioinformatics and Genome Research in 2009 and a M.Sc. in Intelligent Systems in 2011. After completing my M.Sc., I joined the Applied Informatics Groupand worked on the SocialRobots project on socially assistive robots to promote physical activity for long-term space missions.</description>
     </item>
     
   </channel>
