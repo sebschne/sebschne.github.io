@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>6 on Sebastian Schneider</title>
+    <title>6 | Sebastian Schneider</title>
     <link>https://sebschne.github.io/publication_types/6/</link>
-    <description>Recent content in 6 on Sebastian Schneider</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://sebschne.github.io/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://sebschne.github.io/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2021&#39;</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>6</title>
+      <link>https://sebschne.github.io/publication_types/6/</link>
+    </image>
     
     <item>
       <title>Comparing the Effects of Social Robots and Virtual Agents on Exercising Motivation</title>
       <link>https://sebschne.github.io/publication/2932680/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2932680/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Applied Social Robotics—Building Interactive Robots with LEGO Mindstorms</title>
       <link>https://sebschne.github.io/publication/2906102/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2906102/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>Effects of Different Robot Interaction Strategies During Cognitive Tasks</title>
       <link>https://sebschne.github.io/publication/2906153/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2906153/</guid>
       <description></description>
     </item>

@@ -1,22 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Sebastian Schneider</title>
+    <title>Publications | Sebastian Schneider</title>
     <link>https://sebschne.github.io/publication/</link>
-    <description>Recent content in Publications on Sebastian Schneider</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+      <atom:link href="https://sebschne.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2021&#39;</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://sebschne.github.io/publication/</link>
+    </image>
     
-	<atom:link href="https://sebschne.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Comparing Robot and Human guided Personalization: Adaptive Exercise Robots are Perceived as more Competent and Trustworthy</title>
+      <link>https://sebschne.github.io/publication/2942090/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/2942090/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PREC 2019: Personal Robots for Exercising and Coaching</title>
       <link>https://sebschne.github.io/publication/2935499/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2935499/</guid>
       <description></description>
     </item>
@@ -25,7 +32,6 @@
       <title>Socially Assistive Robots for Exercising Scenarios. Studies on group effects, feedback, embodiment and adaption</title>
       <link>https://sebschne.github.io/publication/2934006/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2934006/</guid>
       <description></description>
     </item>
@@ -34,7 +40,6 @@
       <title>Comparing the Effects of Social Robots and Virtual Agents on Exercising Motivation</title>
       <link>https://sebschne.github.io/publication/2932680/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2932680/</guid>
       <description></description>
     </item>
@@ -43,7 +48,6 @@
       <title>PREC 2018. Personal Robots for Exercising and Coaching</title>
       <link>https://sebschne.github.io/publication/2932683/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2932683/</guid>
       <description></description>
     </item>
@@ -52,7 +56,6 @@
       <title>Does the User&#39;s Evaluation of a Socially Assistive Robot Change Based on Presence and Companionship Type?</title>
       <link>https://sebschne.github.io/publication/2909140/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2909140/</guid>
       <description></description>
     </item>
@@ -61,7 +64,6 @@
       <title>Exploring Embodiment and Dueling Bandits for Preference Adaptation in Human-Robot Interaction</title>
       <link>https://sebschne.github.io/publication/2909463/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2909463/</guid>
       <description></description>
     </item>
@@ -70,7 +72,6 @@
       <title>A framework for designing socially assistive robot interactions</title>
       <link>https://sebschne.github.io/publication/2906906/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2906906/</guid>
       <description></description>
     </item>
@@ -79,7 +80,6 @@
       <title>Applied Social Robotics—Building Interactive Robots with LEGO Mindstorms</title>
       <link>https://sebschne.github.io/publication/2906102/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2906102/</guid>
       <description></description>
     </item>
@@ -88,7 +88,6 @@
       <title>Exercising with a Humanoid Companion is More Effective than Exercising Alone</title>
       <link>https://sebschne.github.io/publication/2906151/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2906151/</guid>
       <description></description>
     </item>
@@ -97,7 +96,6 @@
       <title>Motivational Effects of Acknowledging Feedback from a Socially Assistive Robot</title>
       <link>https://sebschne.github.io/publication/2906152/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2906152/</guid>
       <description></description>
     </item>
@@ -106,7 +104,6 @@
       <title>Long-Term Feedback Mechanisms for Robotic Assisted Indoor Cycling Training</title>
       <link>https://sebschne.github.io/publication/2787035/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2787035/</guid>
       <description></description>
     </item>
@@ -115,7 +112,6 @@
       <title>Reusable Motivational Instruction Patterns for Socially Assistive Robots</title>
       <link>https://sebschne.github.io/publication/2787049/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2787049/</guid>
       <description></description>
     </item>
@@ -124,7 +120,6 @@
       <title>A robot as fitness companion: towards an interactive action-based motivation model</title>
       <link>https://sebschne.github.io/publication/2683585/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2683585/</guid>
       <description></description>
     </item>
@@ -133,7 +128,6 @@
       <title>How Socially Assistive Robots Supporting on Cognitive Tasks Perform</title>
       <link>https://sebschne.github.io/publication/2709622/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2709622/</guid>
       <description></description>
     </item>
@@ -142,7 +136,6 @@
       <title>Effects of Different Robot Interaction Strategies During Cognitive Tasks</title>
       <link>https://sebschne.github.io/publication/2906153/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2906153/</guid>
       <description></description>
     </item>
@@ -151,7 +144,6 @@
       <title>Social Robots for Long-Term Space Missions</title>
       <link>https://sebschne.github.io/publication/2617293/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2617293/</guid>
       <description></description>
     </item>

@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carlos A. Cifuentes on Sebastian Schneider</title>
+    <title>Carlos A. Cifuentes | Sebastian Schneider</title>
     <link>https://sebschne.github.io/authors/carlos-a.-cifuentes/</link>
-    <description>Recent content in Carlos A. Cifuentes on Sebastian Schneider</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://sebschne.github.io/authors/carlos-a.-cifuentes/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://sebschne.github.io/authors/carlos-a.-cifuentes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Carlos A. Cifuentes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2021&#39;</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Carlos A. Cifuentes</title>
+      <link>https://sebschne.github.io/authors/carlos-a.-cifuentes/</link>
+    </image>
     
     <item>
       <title>PREC 2019: Personal Robots for Exercising and Coaching</title>
       <link>https://sebschne.github.io/publication/2935499/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2935499/</guid>
       <description></description>
     </item>

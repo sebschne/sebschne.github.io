@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Luise Süssenbach on Sebastian Schneider</title>
+    <title>Luise Süssenbach | Sebastian Schneider</title>
     <link>https://sebschne.github.io/authors/luise-s%C3%BCssenbach/</link>
-    <description>Recent content in Luise Süssenbach on Sebastian Schneider</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
-    <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://sebschne.github.io/authors/luise-s%C3%BCssenbach/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://sebschne.github.io/authors/luise-s%C3%BCssenbach/index.xml" rel="self" type="application/rss+xml" />
+    <description>Luise Süssenbach</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2021&#39;</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Luise Süssenbach</title>
+      <link>https://sebschne.github.io/authors/luise-s%C3%BCssenbach/</link>
+    </image>
     
     <item>
       <title>Long-Term Feedback Mechanisms for Robotic Assisted Indoor Cycling Training</title>
       <link>https://sebschne.github.io/publication/2787035/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2787035/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>A robot as fitness companion: towards an interactive action-based motivation model</title>
       <link>https://sebschne.github.io/publication/2683585/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2683585/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>Social Robots for Long-Term Space Missions</title>
       <link>https://sebschne.github.io/publication/2617293/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2617293/</guid>
       <description></description>
     </item>

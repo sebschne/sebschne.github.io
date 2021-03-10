@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Michael Goerlich on Sebastian Schneider</title>
+    <title>Michael Goerlich | Sebastian Schneider</title>
     <link>https://sebschne.github.io/authors/michael-goerlich/</link>
-    <description>Recent content in Michael Goerlich on Sebastian Schneider</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&#39;&amp;copy;&#39; &#39;{year}&#39;</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://sebschne.github.io/authors/michael-goerlich/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://sebschne.github.io/authors/michael-goerlich/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael Goerlich</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2021&#39;</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Michael Goerlich</title>
+      <link>https://sebschne.github.io/authors/michael-goerlich/</link>
+    </image>
     
     <item>
       <title>A framework for designing socially assistive robot interactions</title>
       <link>https://sebschne.github.io/publication/2906906/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2906906/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Reusable Motivational Instruction Patterns for Socially Assistive Robots</title>
       <link>https://sebschne.github.io/publication/2787049/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://sebschne.github.io/publication/2787049/</guid>
       <description></description>
     </item>
