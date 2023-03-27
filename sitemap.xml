@@ -8,9 +8,6 @@
     <loc>https://sebschne.github.io/tags/experience/</loc>
     <lastmod>2021-03-10T14:38:39+01:00</lastmod>
   </url><url>
-    <loc>https://sebschne.github.io/tags/human-robot-interaction/</loc>
-    <lastmod>2021-03-10T14:38:39+01:00</lastmod>
-  </url><url>
     <loc>https://sebschne.github.io/tags/preference-learning/</loc>
     <lastmod>2021-03-10T14:38:39+01:00</lastmod>
   </url><url>
@@ -27,6 +24,9 @@
     <lastmod>2021-03-10T14:38:39+01:00</lastmod>
   </url><url>
     <loc>https://sebschne.github.io/authors/franz-kummert/</loc>
+    <lastmod>2021-03-10T14:38:39+01:00</lastmod>
+  </url><url>
+    <loc>https://sebschne.github.io/tags/human-robot-interaction/</loc>
     <lastmod>2021-03-10T14:38:39+01:00</lastmod>
   </url><url>
     <loc>https://sebschne.github.io/publication_types/</loc>
@@ -101,16 +101,22 @@
     <loc>https://sebschne.github.io/projects/exhaustion-perception/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sebschne.github.io/tags/cognitive-tasks/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sebschne.github.io/tags/hri/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sebschne.github.io/tags/lti/</loc>
+    <loc>https://sebschne.github.io/tags/long-term-interaction/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sebschne.github.io/projects/preference-learning/</loc>
+    <loc>https://sebschne.github.io/tags/machine-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sebschne.github.io/projects/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sebschne.github.io/projects/preference-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sebschne.github.io/projects/internal-project/</loc>
@@ -119,10 +125,13 @@
     <loc>https://sebschne.github.io/tags/sar/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sebschne.github.io/projects/sar-cognitive-task/</loc>
+    <loc>https://sebschne.github.io/tags/socially-assistive-robot/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sebschne.github.io/projects/user-modelling-exercises/</loc>
+    <loc>https://sebschne.github.io/tags/socially-assistive-robots/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sebschne.github.io/projects/sar-cognitive-task/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sebschne.github.io/publication/2906906/</loc>

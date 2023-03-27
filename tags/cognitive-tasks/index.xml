@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cognitive Tasks | Sebastian Schneider</title>
+    <link>https://sebschne.github.io/tags/cognitive-tasks/</link>
+      <atom:link href="https://sebschne.github.io/tags/cognitive-tasks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cognitive Tasks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2023&#39;</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Cognitive Tasks</title>
+      <link>https://sebschne.github.io/tags/cognitive-tasks/</link>
+    </image>
+    
+    <item>
+      <title>Socially Assistive Robots for Cognitive Tasks</title>
+      <link>https://sebschne.github.io/projects/sar-cognitive-task/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/projects/sar-cognitive-task/</guid>
+      <description>&lt;p&gt;Understanding the effects of Socially Assistive Robots (SAR) on human’s task performance is crucial for designing powerful assistive systems.
+A variety of interaction design questions have to be taken into account in order to implement SAR. We present the results of a case-control study (no robot present vs. robot giving generic motivational feedback vs. robot giving task performance related feedback) for a scenario in which a SAR assists users on a cognitive task.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sebschne.github.io/img/sar_task.png&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;The cognitive task&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Results show that SARs can have positive effects on user’s task performance on cognitive tasks and that the task is perceived as pleasurable if the robot’s feedback is appropriate to the user’s task processing.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sebschne.github.io/img/sar_supporting.png&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Socially assistive robot supporting on the task.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

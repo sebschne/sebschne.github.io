@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Socially Assistive Robots | Sebastian Schneider</title>
+    <link>https://sebschne.github.io/tags/socially-assistive-robots/</link>
+      <atom:link href="https://sebschne.github.io/tags/socially-assistive-robots/index.xml" rel="self" type="application/rss+xml" />
+    <description>Socially Assistive Robots</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2023&#39;</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Socially Assistive Robots</title>
+      <link>https://sebschne.github.io/tags/socially-assistive-robots/</link>
+    </image>
+    
+    <item>
+      <title>Classification and Prediction of Fatigue during Exercising using the Facial Action Coding System</title>
+      <link>https://sebschne.github.io/projects/exhaustion-perception/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/projects/exhaustion-perception/</guid>
+      <description>&lt;p&gt;Physical exercise has become an essential tool for treating various non-communicable diseases (also known as chronic diseases).
+Due to this, physical exercise allows to counter different symptoms and reduce some risk of death factors without medication.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sebschne.github.io/img/physical_inactivity.jpg_large&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Physical inactivity worldwide&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A solution to support people in doing exercises is to use artificial systems that monitor their exercise progress.
+While one crucial aspect is to monitor the correct physical motions for rehabilitative exercise, another essential element is to give encouraging feedback during workouts.
+A coaching system can track a user’s exhaustion and give motivating feedback accordingly to boost exercise adherence.
+For this purpose, this research investigates whether it is possible to predict the subjective exhaustion level based on non-invasive and non-wearable technology.
+A novel data set was recorded with the facial record as the primary predictor and individual exhaustion levels as the predicted variable.
+&lt;img src=&#34;https://sebschne.github.io/img/sensors-pred.png&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Setup for creating the data set recording&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;60 participants (30 male, 30 female) took part in the data recording. 17 facial action units (AU) were extracted as predictor variables for the perceived subjective exhaustion measured using the BORG scale. Using the predictor and the target variables, several regression and classification methods were evaluated aiming to predict exhaustion. The results showed that the decision tree and support vector methods provide reasonable prediction results. The limitation of the results, depending on participants being in the training data set and subjective variables (e.g., participants smiling during the exercises) were further discussed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

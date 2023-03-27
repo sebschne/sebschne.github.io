@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Long-term Interaction | Sebastian Schneider</title>
+    <link>https://sebschne.github.io/tags/long-term-interaction/</link>
+      <atom:link href="https://sebschne.github.io/tags/long-term-interaction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Long-term Interaction</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2023&#39;</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Long-term Interaction</title>
+      <link>https://sebschne.github.io/tags/long-term-interaction/</link>
+    </image>
+    
+    <item>
+      <title>Robot Exercising Coaches for Long-term Human-Robot Interaction</title>
+      <link>https://sebschne.github.io/projects/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/projects/internal-project/</guid>
+      <description>&lt;p&gt;Eight test subjects spent 18 days living closely together in a sealed off area of the Institute of Aerospace Medicine at the German Aerospace Centre (DLR) in Cologne.
+&lt;img src=&#34;https://sebschne.github.io/img/crew.jpeg&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Participants of the long-term project.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;‘Their living conditions were almost as cramped as those in a Space Shuttle,’ said Kummert. Distraction was provided by the two robots Flobi and Nao.
+Flobi is a talking robotic head developed at Bielefeld University’s Cluster of Excellence on Cognitive Interaction Technology (CITEC).
+&lt;img src=&#34;https://sebschne.github.io/img/flobi.jpeg&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Flobi engaged in cogntive tasks.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It uses facial expressions to react to a partner by moving its eyes, brows, eyelids, and lips.
+Researchers at Bielefeld completely reworked the mechanics of its neck, moth, and eyes to make it more robust for the ‘SoziRob’ project in which the isolation study is embedded.
+Flobi’s task in the study was to stimulate the test subjects mentally by playing several memory games with them every day.
+The robotic head uses facial expressions to react to the face of its human partner and it turns towards them – something that Flobi can do because it is able to locate the voice of its partner in space and evaluate her or his face visually.
+Flobi‘s colleague, the almost 60 centimetre high Nao, can talk, register persons visually, and move its hands, arms, and legs.
+The robot was responsible for sports training on board the test station.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sebschne.github.io/img/nao.jpeg&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;The humanoid robot Nao as physical exercise instructor.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Every day, it trained each of the test subjects for one hour of spinning on the indoor exercise bike.
+It instructed the test subjects on, for example, how fast they should go, and told them how to perform their exercises.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&#34;Human-robot interaction&#34; | Sebastian Schneider</title>
+    <title>Human-Robot Interaction | Sebastian Schneider</title>
     <link>https://sebschne.github.io/tags/human-robot-interaction/</link>
       <atom:link href="https://sebschne.github.io/tags/human-robot-interaction/index.xml" rel="self" type="application/rss+xml" />
-    <description>&#34;Human-robot interaction&#34;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2022&#39;</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <description>Human-Robot Interaction</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2023&#39;</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>&#34;Human-robot interaction&#34;</title>
+      <title>Human-Robot Interaction</title>
       <link>https://sebschne.github.io/tags/human-robot-interaction/</link>
     </image>
     
@@ -18,6 +18,66 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://sebschne.github.io/publication/2942090/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Classification and Prediction of Fatigue during Exercising using the Facial Action Coding System</title>
+      <link>https://sebschne.github.io/projects/exhaustion-perception/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/projects/exhaustion-perception/</guid>
+      <description>&lt;p&gt;Physical exercise has become an essential tool for treating various non-communicable diseases (also known as chronic diseases).
+Due to this, physical exercise allows to counter different symptoms and reduce some risk of death factors without medication.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sebschne.github.io/img/physical_inactivity.jpg_large&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Physical inactivity worldwide&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A solution to support people in doing exercises is to use artificial systems that monitor their exercise progress.
+While one crucial aspect is to monitor the correct physical motions for rehabilitative exercise, another essential element is to give encouraging feedback during workouts.
+A coaching system can track a user’s exhaustion and give motivating feedback accordingly to boost exercise adherence.
+For this purpose, this research investigates whether it is possible to predict the subjective exhaustion level based on non-invasive and non-wearable technology.
+A novel data set was recorded with the facial record as the primary predictor and individual exhaustion levels as the predicted variable.
+&lt;img src=&#34;https://sebschne.github.io/img/sensors-pred.png&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Setup for creating the data set recording&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;60 participants (30 male, 30 female) took part in the data recording. 17 facial action units (AU) were extracted as predictor variables for the perceived subjective exhaustion measured using the BORG scale. Using the predictor and the target variables, several regression and classification methods were evaluated aiming to predict exhaustion. The results showed that the decision tree and support vector methods provide reasonable prediction results. The limitation of the results, depending on participants being in the training data set and subjective variables (e.g., participants smiling during the exercises) were further discussed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robot Exercising Coaches for Long-term Human-Robot Interaction</title>
+      <link>https://sebschne.github.io/projects/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/projects/internal-project/</guid>
+      <description>&lt;p&gt;Eight test subjects spent 18 days living closely together in a sealed off area of the Institute of Aerospace Medicine at the German Aerospace Centre (DLR) in Cologne.
+&lt;img src=&#34;https://sebschne.github.io/img/crew.jpeg&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Participants of the long-term project.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;‘Their living conditions were almost as cramped as those in a Space Shuttle,’ said Kummert. Distraction was provided by the two robots Flobi and Nao.
+Flobi is a talking robotic head developed at Bielefeld University’s Cluster of Excellence on Cognitive Interaction Technology (CITEC).
+&lt;img src=&#34;https://sebschne.github.io/img/flobi.jpeg&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Flobi engaged in cogntive tasks.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It uses facial expressions to react to a partner by moving its eyes, brows, eyelids, and lips.
+Researchers at Bielefeld completely reworked the mechanics of its neck, moth, and eyes to make it more robust for the ‘SoziRob’ project in which the isolation study is embedded.
+Flobi’s task in the study was to stimulate the test subjects mentally by playing several memory games with them every day.
+The robotic head uses facial expressions to react to the face of its human partner and it turns towards them – something that Flobi can do because it is able to locate the voice of its partner in space and evaluate her or his face visually.
+Flobi‘s colleague, the almost 60 centimetre high Nao, can talk, register persons visually, and move its hands, arms, and legs.
+The robot was responsible for sports training on board the test station.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sebschne.github.io/img/nao.jpeg&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;The humanoid robot Nao as physical exercise instructor.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Every day, it trained each of the test subjects for one hour of spinning on the indoor exercise bike.
+It instructed the test subjects on, for example, how fast they should go, and told them how to perform their exercises.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Socially Assistive Robots for Cognitive Tasks</title>
+      <link>https://sebschne.github.io/projects/sar-cognitive-task/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/projects/sar-cognitive-task/</guid>
+      <description>&lt;p&gt;Understanding the effects of Socially Assistive Robots (SAR) on human’s task performance is crucial for designing powerful assistive systems.
+A variety of interaction design questions have to be taken into account in order to implement SAR. We present the results of a case-control study (no robot present vs. robot giving generic motivational feedback vs. robot giving task performance related feedback) for a scenario in which a SAR assists users on a cognitive task.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sebschne.github.io/img/sar_task.png&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;The cognitive task&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Results show that SARs can have positive effects on user’s task performance on cognitive tasks and that the task is perceived as pleasurable if the robot’s feedback is appropriate to the user’s task processing.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sebschne.github.io/img/sar_supporting.png&#34; alt=&#34;Setup for creating the data set&#34;&gt;
+&lt;em&gt;Socially assistive robot supporting on the task.&lt;/em&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
