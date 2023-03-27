@@ -56,12 +56,10 @@ A novel data set was recorded with the facial record as the primary predictor an
       <guid>https://sebschne.github.io/projects/preference-learning/</guid>
       <description>&lt;p&gt;The deployment of versatile robot systems in diverse environments requires intuitive approaches for humans to flexibly teach them new skills.
 In our present work, we investigate different user feedback types to teach a real robot a new movement skill.
-&lt;img src=&#34;https://sebschne.github.io/img/robot_rlhr.png&#34; alt=&#34;Setup for creating the data set&#34;&gt;
-&lt;em&gt;The different user feedbacks&lt;/em&gt;&lt;/p&gt;
+&lt;img src=&#34;https://sebschne.github.io/img/robot_rlhr.png&#34; alt=&#34;Setup for creating the data set&#34; title=&#34;The different user feedbacks&#34;&gt;&lt;/p&gt;
 &lt;p&gt;We compare feedback as star ratings on an absolute scale for single roll-outs versus preference-based feedback for pairwise comparisons with respective optimization algorithms (i.e., a variation of co-variance matrix adaptation -evolution strategy (CMA-ES) and random optimization) to teach the robot the game of skill cup-and-ball.
 In an experimental investigation with users, we investigated the influence of the feedback type on the user experience of interacting with the different interfaces and the performance of the learning systems.
-&lt;img src=&#34;https://sebschne.github.io/img/robot_rlhr_setup.png&#34; alt=&#34;Setup for creating the data set&#34;&gt;
-&lt;em&gt;The study setup&lt;/em&gt;&lt;/p&gt;
+&lt;img src=&#34;https://sebschne.github.io/img/robot_rlhr_setup.png&#34; alt=&#34;Setup for creating the data set&#34; title=&#34;The study setup&#34;&gt;&lt;/p&gt;
 &lt;p&gt;While there is no significant difference for the subjective user experience between the conditions, there is a significant difference in learning performance. The preference-based system learned the task quicker, but this did not influence the users’ evaluation of it. In a follow-up study, we confirmed that the difference in learning performance indeed can be attributed to the human users’ performance.&lt;/p&gt;
 </description>
     </item>
