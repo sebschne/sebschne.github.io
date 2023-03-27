@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anja Richert | Sebastian Schneider</title>
+    <link>https://sebschne.github.io/authors/anja-richert/</link>
+      <atom:link href="https://sebschne.github.io/authors/anja-richert/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anja Richert</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2023&#39;</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Anja Richert</title>
+      <link>https://sebschne.github.io/authors/anja-richert/</link>
+    </image>
+    
+    <item>
+      <title>An Architecture for Social Robot-assisted Subjective and Objective Health Monitoring</title>
+      <link>https://sebschne.github.io/publication/9802961/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/9802961/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating gender-stereotyped interactions with virtual agents in public spaces</title>
+      <link>https://sebschne.github.io/publication/9900529/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/9900529/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot Control Using Model-Based Reinforcement Learning With Inverse Kinematics</title>
+      <link>https://sebschne.github.io/publication/9962215/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/9962215/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

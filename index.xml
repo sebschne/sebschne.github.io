@@ -5,12 +5,68 @@
     <link>https://sebschne.github.io/</link>
       <atom:link href="https://sebschne.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sebastian Schneider</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2023&#39;</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2023&#39;</copyright><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Sebastian Schneider</title>
       <link>https://sebschne.github.io/</link>
     </image>
+    
+    <item>
+      <title>Stop Ignoring Me! On Fighting the Trivialization of Social Robots in Public Spaces</title>
+      <link>https://sebschne.github.io/publication/10-1145-3488241/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/10-1145-3488241/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Architecture for Social Robot-assisted Subjective and Objective Health Monitoring</title>
+      <link>https://sebschne.github.io/publication/9802961/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/9802961/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human-Robot Interaction in Public Spaces</title>
+      <link>https://sebschne.github.io/publication/9889525/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/9889525/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Robot Task Learning: Human Teaching Proficiency with Different Feedback Approaches</title>
+      <link>https://sebschne.github.io/publication/9811526/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/9811526/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigating gender-stereotyped interactions with virtual agents in public spaces</title>
+      <link>https://sebschne.github.io/publication/9900529/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/9900529/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Perceived Exhaustion in Rehabilitation Exercises Using Facial Action Units</title>
+      <link>https://sebschne.github.io/publication/s-22176524/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/s-22176524/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot Control Using Model-Based Reinforcement Learning With Inverse Kinematics</title>
+      <link>https://sebschne.github.io/publication/9962215/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/9962215/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Comparing Robot and Human guided Personalization: Adaptive Exercise Robots are Perceived as more Competent and Trustworthy</title>

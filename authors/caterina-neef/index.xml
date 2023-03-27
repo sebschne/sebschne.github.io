@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caterina Neef | Sebastian Schneider</title>
+    <link>https://sebschne.github.io/authors/caterina-neef/</link>
+      <atom:link href="https://sebschne.github.io/authors/caterina-neef/index.xml" rel="self" type="application/rss+xml" />
+    <description>Caterina Neef</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&#39;©&#39; &#39;2023&#39;</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sebschne.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Caterina Neef</title>
+      <link>https://sebschne.github.io/authors/caterina-neef/</link>
+    </image>
+    
+    <item>
+      <title>An Architecture for Social Robot-assisted Subjective and Objective Health Monitoring</title>
+      <link>https://sebschne.github.io/publication/9802961/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://sebschne.github.io/publication/9802961/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
