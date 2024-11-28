@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Sebastian Schneider"
-  pronouns         : example: "he/him"  
+  pronouns         : "he/him"  
   bio              : "Assistant Professor for AI for (health) Coaching"
   location         : "Enschede"
   employer         : "University of Twente"
