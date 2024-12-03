@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "sebastian_schneider.png"
   name             : "Sebastian Schneider"
   pronouns         : "he/him"  
   bio              : "Assistant Professor for AI for (health) Coaching"
