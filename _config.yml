@@ -37,7 +37,7 @@ author:
   orcid            : "http://orcid.org/0000-0003-2953-341X"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : https://www.researchgate.net/profile/Sebastian-Schneider-16
   scopus           : # URL
 
   # Repositories and software development
