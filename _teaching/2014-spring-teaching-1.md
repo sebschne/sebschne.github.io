@@ -4,7 +4,7 @@ collection: teaching
 type: "Graduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University of Twente, Faculty of Electrical Engineering, Mathematics and Computer Science"
-date: 2020
+date: 01-09-2024
 location: "Enschede, Netherlands"
 ---
 
