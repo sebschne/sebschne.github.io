@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sebastian Schneider | Human-Robot Interaction, University of Twente</title>
+<meta name="description" content="Dr.-Ing. Sebastian Schneider is an Assistant Professor in Human Media Interaction at the University of Twente. He works on robots for health coaching, personalization and social-physical human-robot interaction.">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Sebastian Schneider">
+<meta property="og:description" content="Dr.-Ing. Sebastian Schneider is an Assistant Professor in Human Media Interaction at the University of Twente. He works on robots for health coaching, personalization and social-physical human-robot interaction.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Sebastian Schneider", "honorificPrefix": "Dr.-Ing.", "jobTitle": "Assistant Professor", "affiliation": {"@type": "CollegeOrUniversity", "name": "University of Twente"}, "alumniOf": {"@type": "CollegeOrUniversity", "name": "Bielefeld University"}, "email": "s.schneider@utwente.nl", "sameAs": ["https://people.utwente.nl/s.schneider", "https://scholar.google.com/citations?user=xlngtkMAAAAJ", "https://orcid.org/0000-0003-2953-341X"], "knowsAbout": ["Human-Robot Interaction", "Socially Assistive Robotics", "Reinforcement Learning", "Health Coaching", "Social Robots"]}</script>
+<style>
+
+/* Layout: the CV's own margin-label convention. Section names sit in a narrow
+   left margin, content runs in one column beside them; stacks on phones. */
+:root {
+  --bg: #FAF9FB;
+  --surface: #FFFFFF;
+  --ink: #1C1721;
+  --muted: #655C6C;
+  --rule: #E2DDE7;
+  --accent: #A3123F;
+  --on-accent: #FFFFFF;
+
+  --font-display: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  --text-xs: 0.78rem;
+  --text-sm: 0.9rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-name: clamp(2.6rem, 8.5vw, 4.25rem);
+
+  --gutter: clamp(16px, 4vw, 40px);
+  --margin-col: 10.5rem;
+  --bar-h: 3.25rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #151217;
+    --surface: #1E1A22;
+    --ink: #EFEAF2;
+    --muted: #AAA0B1;
+    --rule: #352E3B;
+    --accent: #FF8EAA;
+    --on-accent: #151217;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #151217;
+  --surface: #1E1A22;
+  --ink: #EFEAF2;
+  --muted: #AAA0B1;
+  --rule: #352E3B;
+  --accent: #FF8EAA;
+  --on-accent: #151217;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.6;
+}
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+p, h1, h2, h3, ol, ul, dl, dd { margin: 0; }
+ol, ul { padding: 0; list-style: none; }
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.wrap { max-width: 68rem; margin-inline: auto; padding-inline: var(--gutter); }
+
+/* ---- top bar ---- */
+.topbar {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--rule);
+}
+.topbar-in { display: flex; align-items: center; gap: 1.5rem; min-height: var(--bar-h); }
+.brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.topnav {
+  display: flex;
+  gap: 1.35rem;
+  margin-left: auto;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.topnav::-webkit-scrollbar { display: none; }
+.topnav a {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+  padding-block: 0.85rem;
+}
+.topnav a:hover, .topnav a[aria-current="true"] { color: var(--accent); }
+
+/* ---- hero ---- */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1.75rem 3rem;
+  padding-block: clamp(2.75rem, 8vw, 5.5rem) clamp(2.25rem, 6vw, 4rem);
+}
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-name);
+  line-height: 0.94;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+.degree {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+.lead {
+  font-size: clamp(1.2rem, 2.7vw, 1.6rem);
+  line-height: 1.35;
+  max-width: 36ch;
+  text-wrap: pretty;
+}
+.hero-text { display: flex; flex-direction: column; gap: 1.5rem; min-width: 0; }
+.portrait {
+  width: clamp(9rem, 19vw, 13.5rem);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  background: var(--rule);
+}
+.profile-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; font-size: var(--text-sm); }
+
+/* ---- section rows ---- */
+.row {
+  display: grid;
+  grid-template-columns: var(--margin-col) minmax(0, 1fr);
+  gap: 1.25rem 2.5rem;
+  padding-block: clamp(2.25rem, 5vw, 3.5rem);
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: calc(var(--bar-h) + env(safe-area-inset-top, 0px));
+}
+.row-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding-top: 0.4rem;
+  position: sticky;
+  top: calc(var(--bar-h) + env(safe-area-inset-top, 0px) + 1rem);
+  align-self: start;
+}
+.col { display: flex; flex-direction: column; gap: 2.5rem; min-width: 0; }
+.group { display: flex; flex-direction: column; gap: 1rem; min-width: 0; }
+.prose { display: flex; flex-direction: column; gap: 1rem; max-width: 64ch; text-wrap: pretty; }
+.sub {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-lg);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.note { font-size: var(--text-sm); color: var(--muted); max-width: 64ch; }
+
+/* ---- small labels ---- */
+.kv dt {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.kv dd small { display: block; font-size: var(--text-sm); color: var(--muted); }
+
+/* ---- research ---- */
+.themes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.25rem 2.5rem; }
+.theme { display: flex; flex-direction: column; gap: 0.55rem; min-width: 0; }
+.theme-ref { font-size: var(--text-sm); color: var(--muted); }
+/* ---- projects, bio, students, study picture ---- */
+.projects { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.75rem 2rem; }
+.projects li { display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
+.project-name { font-size: var(--text-base); font-weight: 700; line-height: 1.3; margin: 0; text-wrap: balance; }
+.projects p { font-size: var(--text-sm); color: var(--muted); line-height: 1.55; }
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  max-width: 68ch;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--rule);
+  border-radius: 0.6rem;
+  background: var(--surface);
+}
+.bio p { text-wrap: pretty; }
+.bullets { display: flex; flex-direction: column; gap: 0.4rem; padding-left: 1.2rem; list-style: disc; max-width: 64ch; }
+.bullets li::marker { color: var(--accent); }
+.study { margin: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+.study img { width: 100%; height: auto; border-radius: 0.6rem; }
+.study figcaption { font-size: var(--text-sm); color: var(--muted); max-width: 70ch; }
+.theses { display: flex; flex-direction: column; }
+.theses li { display: flex; flex-direction: column; gap: 0.15rem; padding-block: 0.7rem; border-top: 1px solid var(--rule); }
+.theses li:first-child { border-top: 0; padding-top: 0; }
+.thesis-title { font-weight: 600; line-height: 1.4; text-wrap: pretty; }
+.thesis-meta { font-size: var(--text-sm); color: var(--muted); }
+
+/* ---- publications ---- */
+.pubs { display: flex; flex-direction: column; }
+.pubs li {
+  display: grid;
+  grid-template-columns: 3.25rem minmax(0, 1fr);
+  gap: 0.2rem 1rem;
+  padding-block: 0.85rem;
+  border-top: 1px solid var(--rule);
+}
+.pubs li:first-child { border-top: 0; padding-top: 0; }
+.yr, .when {
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.2rem;
+}
+.pub { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+.pub-title { font-weight: 700; line-height: 1.35; text-wrap: pretty; }
+.pub-meta { font-size: var(--text-sm); color: var(--muted); line-height: 1.5; }
+.pub-meta b { color: var(--ink); font-weight: 600; }
+
+.more { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.more > summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding-block: 0.9rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--accent);
+  list-style: none;
+}
+.more > summary::-webkit-details-marker { display: none; }
+.more > summary::before { content: "+"; font-family: var(--font-mono); width: 1ch; }
+.more[open] > summary::before { content: "\2212"; }
+.more-body { display: flex; flex-direction: column; gap: 2rem; padding-block: 0.75rem 1.75rem; }
+.kind {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ---- career ---- */
+.timeline { display: flex; flex-direction: column; }
+.timeline li {
+  display: grid;
+  grid-template-columns: 10.25rem minmax(0, 1fr);
+  gap: 0.2rem 1rem;
+  padding-block: 0.9rem;
+  border-top: 1px solid var(--rule);
+}
+.timeline li:first-child { border-top: 0; padding-top: 0; }
+.when { white-space: nowrap; }
+.job { display: flex; flex-direction: column; gap: 0.2rem; min-width: 0; }
+.job-head { line-height: 1.4; }
+.role { font-weight: 700; }
+.org::before { content: " \00B7  "; color: var(--muted); }
+.org a, .kv dd a.plain { color: inherit; text-decoration-color: var(--accent); }
+.what { font-size: var(--text-sm); color: var(--muted); max-width: 70ch; line-height: 1.5; }
+.what a { color: inherit; text-decoration-color: var(--accent); }
+.now {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  vertical-align: 0.12em;
+}
+
+/* ---- label / value lists ---- */
+.kv { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 1rem 1.5rem; }
+.kv dt { padding-top: 0.32rem; }
+.kv dd { max-width: 66ch; }
+.kv dd ul { display: flex; flex-direction: column; gap: 0.3rem; }
+
+/* ---- contact ---- */
+.email-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.email {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 4.4vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+  color: var(--ink);
+  text-decoration-color: var(--accent);
+}
+.btn {
+  font: inherit;
+  font-size: var(--text-sm);
+  padding: 0.4rem 0.85rem;
+  border: 1px solid var(--rule);
+  border-radius: 0.4rem;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  padding-block: 1.5rem 2.5rem;
+  border-top: 1px solid var(--rule);
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+/* ---- narrow screens ---- */
+@media (max-width: 900px) {
+  .projects { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 760px) {
+  .hero { grid-template-columns: minmax(0, 1fr); }
+  .portrait { order: -1; width: 7.5rem; }
+  .row { grid-template-columns: minmax(0, 1fr); }
+  .row-label { position: static; padding-top: 0; }
+  .themes { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .brand { display: none; }
+  .topnav {
+    margin-left: 0;
+    padding-right: 2rem;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent);
+  }
+  .timeline li { grid-template-columns: minmax(0, 1fr); }
+  .kv { grid-template-columns: minmax(0, 1fr); gap: 0.25rem; }
+  .kv dt { padding-top: 0; }
+  .kv dd + dt { margin-top: 1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+@media print {
+  .topbar, .btn { display: none; }
+  .row-label { position: static; }
+  .more > summary { display: none; }
+}
+
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#top">Sebastian Schneider</a>
+    <nav class="topnav" aria-label="Sections">
+      <a href="#overview">Overview</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#students">Students</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#career">Career</a>
+      <a href="#service">Service</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="wrap">
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Assistant Professor · Human Media Interaction · University of Twente</p>
+      <h1 class="name"><span class="degree">Dr.-Ing.</span>Sebastian Schneider</h1>
+      <p class="lead">I study how robots can coach people to exercise and stay healthy, and how they can adapt to each person they work with.</p>
+      <p class="profile-links">
+        <a href="mailto:s.schneider@utwente.nl">s.schneider@utwente.nl</a>
+        <a href="https://people.utwente.nl/s.schneider" target="_blank" rel="noopener">University profile</a>
+        <a href="https://scholar.google.com/citations?user=xlngtkMAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://orcid.org/0000-0003-2953-341X" target="_blank" rel="noopener">ORCID</a>
+      </p>
+    </div>
+    <img class="portrait" src="portrait.jpg" alt="Portrait of Sebastian Schneider" width="640" height="640">
+  </section>
+
+  <section class="row" id="overview">
+    <h2 class="row-label">Overview</h2>
+    <div class="col">
+      <div class="prose">
+        <p>I am an Assistant Professor in the Human Media Interaction group at the University of Twente. My research is on AI and robotics for health coaching and on social-physical human-robot interaction: robots that exercise with people, give feedback, and learn each person’s preferences through interaction.</p>
+        <p>I received my Dr.-Ing. in Intelligent Systems from Bielefeld University in 2019, with a thesis on socially assistive robots for exercising. Since then I have worked on persuasive robots in public spaces at Kyoto University, on text mining for an ERC project in sociology, on conversational AI and virtual agents for train stations and museums at TH Köln, and as a data scientist building machine-learning products at Miele.</p>
+        <p>At Twente I teach Human-Robot Communication and Human-Robot Collaboration and co-supervise three PhD candidates.</p>
+      </div>
+      <div class="group">
+        <h3 class="sub">Short bio</h3>
+        <div class="bio">
+          <p id="short-bio">Sebastian Schneider is an Assistant Professor in the Human Media Interaction group at the University of Twente. His research focuses on socially assistive robots for health coaching, social-physical human-robot interaction, and interactive robot learning that adapts to individual users. He received his Dr.-Ing. in Intelligent Systems from Bielefeld University in 2019 and has held research positions at Kyoto University, Osaka University, Bielefeld University and TH Köln, as well as a data science role at Miele. He has co-organized workshops on personal robots for exercising and coaching and on human-robot interaction in public spaces at the ACM/IEEE HRI conference, and is Registration Co-Chair of HRI 2027.</p>
+          <button class="btn" type="button" data-copy="short-bio">Copy bio</button>
+        </div>
+        <p class="note">For talk announcements and programs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="row" id="research">
+    <h2 class="row-label">Research</h2>
+    <div class="col">
+      
+      <div class="themes">
+        <article class="theme">
+          <h3 class="sub">Robots as exercise and health coaches</h3>
+          <p>Socially assistive robots that accompany people through indoor cycling, rowing, squats and rehabilitation exercises, and the feedback and motivation strategies that keep people going over weeks rather than minutes.</p>
+          <p class="theme-ref">See: <a href="https://doi.org/10.1109/HUMANOIDS.2016.7803321" target="_blank" rel="noopener">Exercising with a humanoid companion is more effective than exercising alone</a> (Humanoids 2016)</p>
+        </article>
+        <article class="theme">
+          <h3 class="sub">Personalization and interactive learning</h3>
+          <p>Preference learning, dueling bandits and reinforcement learning that let a robot adapt its coaching to one individual, and studies of how people teach robots and how they judge a robot that adapts on its own.</p>
+          <p class="theme-ref">See: <a href="https://doi.org/10.1109/ROMAN.2017.8172476" target="_blank" rel="noopener">Exploring embodiment and dueling bandit learning for preference adaptation</a> (RO-MAN 2017)</p>
+        </article>
+        <article class="theme">
+          <h3 class="sub">Social robots in public spaces</h3>
+          <p>What happens when robots and virtual agents leave the lab for train stations, museums and shopping malls: being noticed, being taken seriously, and persuading people to follow rules.</p>
+          <p class="theme-ref">See: <a href="https://doi.org/10.1145/3488241" target="_blank" rel="noopener">Stop ignoring me! On fighting the trivialization of social robots in public spaces</a> (ACM THRI 2022)</p>
+        </article>
+        <article class="theme">
+          <h3 class="sub">Social-physical interaction and accessibility</h3>
+          <p>Touch, handover and physical guidance between people and robots, including for users who are blind or visually impaired, people with intellectual disabilities, and patients in physiotherapy.</p>
+          <p class="theme-ref">See: <a href="https://doi.org/10.1007/978-981-96-3525-2_32" target="_blank" rel="noopener">Social-physical human-robot interaction for health applications: A scoping review</a> (ICSR 2024)</p>
+        </article>
+      </div>
+
+      <div class="group">
+        <h3 class="sub">Current projects</h3>
+        <ul class="projects">
+          <li>
+            <h4 class="project-name">Social-physical human-robot interaction for health coaching</h4>
+            <p>Robots that coach through touch and physical guidance as well as speech, for physiotherapy and exercise. Recent work combines haptic feedback with a socially assistive robot to improve squat technique.</p>
+          </li>
+          <li>
+            <h4 class="project-name">Inclusive design of assistive robots</h4>
+            <p>Designing robot interaction with and for people who are often left out of studies: object handover under reduced vision, sound-based guidance for blind users, and social touch with people with intellectual disabilities.</p>
+          </li>
+          <li>
+            <h4 class="project-name">Intrinsically motivated multi-agent reinforcement learning for collaboration</h4>
+            <p>Agents that learn to work together from intrinsic motivation instead of hand-designed rewards, studied in cooperative multi-agent environments such as Overcooked.</p>
+          </li>
+        </ul>
+      </div>
+
+      <p class="note">Funding: this work is supported by the starting package of my assistant professorship, financed through the Dutch <a href="https://www.sectorplan-betatechniek.nl/" target="_blank" rel="noopener">Sectorplan Bèta en Techniek</a>.</p>
+    </div>
+  </section>
+
+  <section class="row" id="publications">
+    <h2 class="row-label">Publications</h2>
+    <div class="col">
+      <div class="group">
+        <h3 class="sub">Selected</h3>
+        <ol class="pubs"><li><span class="yr">2025</span><span class="pub"><span class="pub-title">“I can’t see you, but I trust you!”: Exploring the impact of reduced vision on object handover times in human-robot collaboration</span><span class="pub-meta">L. Ester, L. Hindemith, <b>S. Schneider</b>. <i>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)</i>, pp. 1209–1215.</span></span></li>
+<li><span class="yr">2024</span><span class="pub"><span class="pub-title">Social-physical human-robot interaction for health applications: A scoping review</span><span class="pub-meta"><b>S. Schneider</b>. <i>International Conference on Social Robotics (ICSR), Springer</i>, pp. 381–391. <a href="https://doi.org/10.1007/978-981-96-3525-2_32" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2022</span><span class="pub"><span class="pub-title">Stop ignoring me! On fighting the trivialization of social robots in public spaces</span><span class="pub-meta"><b>S. Schneider</b>, Y. Liu, K. Tomita, T. Kanda. <i>ACM Transactions on Human-Robot Interaction</i>, vol. 11, no. 2, pp. 1–23. <a href="https://doi.org/10.1145/3488241" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2021</span><span class="pub"><span class="pub-title">Comparing robot and human guided personalization: Adaptive exercise robots are perceived as more competent and trustworthy</span><span class="pub-meta"><b>S. Schneider</b>, F. Kummert. <i>International Journal of Social Robotics</i>, vol. 13, no. 2, pp. 169–185.</span></span></li>
+<li><span class="yr">2021</span><span class="pub"><span class="pub-title">“Is this all you can do? Harder!”: The effects of (im)polite robot encouragement on exercise effort</span><span class="pub-meta">D. J. Rea, <b>S. Schneider</b>, T. Kanda. <i>ACM/IEEE International Conference on Human-Robot Interaction (HRI)</i>, pp. 225–233. <a href="https://doi.org/10.1145/3434073.3444660" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2017</span><span class="pub"><span class="pub-title">Exploring embodiment and dueling bandit learning for preference adaptation in human-robot interaction</span><span class="pub-meta"><b>S. Schneider</b>, F. Kummert. <i>IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)</i>, pp. 1325–1331. <a href="https://doi.org/10.1109/ROMAN.2017.8172476" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2016</span><span class="pub"><span class="pub-title">Exercising with a humanoid companion is more effective than exercising alone</span><span class="pub-meta"><b>S. Schneider</b>, F. Kummert. <i>IEEE-RAS International Conference on Humanoid Robots (Humanoids)</i>, pp. 495–501. <a href="https://doi.org/10.1109/HUMANOIDS.2016.7803321" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2016</span><span class="pub"><span class="pub-title">A framework for designing socially assistive robot interactions</span><span class="pub-meta"><b>S. Schneider</b>, M. Goerlich, F. Kummert. <i>Cognitive Systems Research</i>, vol. 43, pp. 301–312. <a href="https://doi.org/10.1016/j.cogsys.2016.09.008" target="_blank" rel="noopener">DOI</a></span></span></li></ol>
+      </div>
+      <details class="more">
+        <summary>Full publication list</summary>
+        <div class="more-body">
+          <div class="group">
+            <h4 class="kind">Journal articles, peer reviewed</h4>
+            <ol class="pubs"><li><span class="yr">2024</span><span class="pub"><span class="pub-title">Precision epidemiology: A computational analysis of the impact of algorithmic prediction on the relationship between population epidemiology and clinical epidemiology</span><span class="pub-meta">E. Esposito, P. Angelini, <b>S. Schneider</b>. <i>International Journal of Public Health</i>, vol. 69, article 1607396.</span></span></li>
+<li><span class="yr">2022</span><span class="pub"><span class="pub-title">Stop ignoring me! On fighting the trivialization of social robots in public spaces</span><span class="pub-meta"><b>S. Schneider</b>, Y. Liu, K. Tomita, T. Kanda. <i>ACM Transactions on Human-Robot Interaction</i>, vol. 11, no. 2, pp. 1–23. <a href="https://doi.org/10.1145/3488241" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2022</span><span class="pub"><span class="pub-title">Predicting perceived exhaustion in rehabilitation exercises using facial action units</span><span class="pub-meta">C. Kreis, A. Aguirre, C. A. Cifuentes, M. Munera, M. F. Jiménez, <b>S. Schneider</b>. <i>Sensors</i>, vol. 22, no. 17, p. 6524.</span></span></li>
+<li><span class="yr">2022</span><span class="pub"><span class="pub-title">Interactive robot task learning: Human teaching proficiency with different feedback approaches</span><span class="pub-meta">L. Hindemith, O. Bruns, A. M. Noller, N. Hemion, <b>S. Schneider</b>, A.-L. Vollmer. <i>IEEE Transactions on Cognitive and Developmental Systems</i>, vol. 15, no. 4, pp. 1938–1947.</span></span></li>
+<li><span class="yr">2021</span><span class="pub"><span class="pub-title">Comparing robot and human guided personalization: Adaptive exercise robots are perceived as more competent and trustworthy</span><span class="pub-meta"><b>S. Schneider</b>, F. Kummert. <i>International Journal of Social Robotics</i>, vol. 13, no. 2, pp. 169–185.</span></span></li>
+<li><span class="yr">2016</span><span class="pub"><span class="pub-title">A framework for designing socially assistive robot interactions</span><span class="pub-meta"><b>S. Schneider</b>, M. Goerlich, F. Kummert. <i>Cognitive Systems Research</i>, vol. 43, pp. 301–312. <a href="https://doi.org/10.1016/j.cogsys.2016.09.008" target="_blank" rel="noopener">DOI</a></span></span></li></ol>
+          </div>
+          <div class="group">
+            <h4 class="kind">Conference and workshop papers, peer reviewed</h4>
+            <ol class="pubs"><li><span class="yr">2026</span><span class="pub"><span class="pub-title">Learning from human-dog collaboration: Towards the design of search and rescue robots</span><span class="pub-meta">K. L. Kleiser, V. Buntsma, <b>S. Schneider</b>. <i>Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI)</i>, pp. 1004–1008.</span></span></li>
+<li><span class="yr">2025</span><span class="pub"><span class="pub-title">“I can’t see you, but I trust you!”: Exploring the impact of reduced vision on object handover times in human-robot collaboration</span><span class="pub-meta">L. Ester, L. Hindemith, <b>S. Schneider</b>. <i>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)</i>, pp. 1209–1215.</span></span></li>
+<li><span class="yr">2025</span><span class="pub"><span class="pub-title">Rethinking the evaluation of non-stationary dueling bandits for human-robot interaction</span><span class="pub-meta"><b>S. Schneider</b>. <i>International Conference on Social Robotics (ICSR), Springer</i>, pp. 450–455.</span></span></li>
+<li><span class="yr">2025</span><span class="pub"><span class="pub-title">Combining haptic and socially assistive robot feedback for enhancing squat technique in healthy individuals</span><span class="pub-meta">B. I. Mois, <b>S. Schneider</b>. <i>ACM/IEEE International Conference on Human-Robot Interaction (HRI)</i>, pp. 1509–1513.</span></span></li>
+<li><span class="yr">2024</span><span class="pub"><span class="pub-title">Social-physical human-robot interaction for health applications: A scoping review</span><span class="pub-meta"><b>S. Schneider</b>. <i>International Conference on Social Robotics (ICSR), Springer</i>, pp. 381–391. <a href="https://doi.org/10.1007/978-981-96-3525-2_32" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2022</span><span class="pub"><span class="pub-title">Robot control using model-based reinforcement learning with inverse kinematics</span><span class="pub-meta">D. Luipers, N. Kaulen, O. Chojnowski, <b>S. Schneider</b>, A. Richert, S. Jeschke. <i>IEEE International Conference on Development and Learning (ICDL)</i>, pp. 244–249.</span></span></li>
+<li><span class="yr">2022</span><span class="pub"><span class="pub-title">An architecture for social robot-assisted subjective and objective health monitoring</span><span class="pub-meta">C. Neef, <b>S. Schneider</b>, A. Richert. <i>IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO)</i>, pp. 1–6.</span></span></li>
+<li><span class="yr">2022</span><span class="pub"><span class="pub-title">Investigating gender-stereotyped interactions with virtual agents in public spaces</span><span class="pub-meta">A. Müller, L. Penkert, <b>S. Schneider</b>, A. Richert. <i>IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)</i>, pp. 1592–1597.</span></span></li>
+<li><span class="yr">2022</span><span class="pub"><span class="pub-title">Human-robot interaction in public spaces</span><span class="pub-meta"><b>S. Schneider</b>, W. Clas, D. Brščić. <i>ACM/IEEE International Conference on Human-Robot Interaction (HRI)</i>.</span></span></li>
+<li><span class="yr">2021</span><span class="pub"><span class="pub-title">“Is this all you can do? Harder!”: The effects of (im)polite robot encouragement on exercise effort</span><span class="pub-meta">D. J. Rea, <b>S. Schneider</b>, T. Kanda. <i>ACM/IEEE International Conference on Human-Robot Interaction (HRI)</i>, pp. 225–233. <a href="https://doi.org/10.1145/3434073.3444660" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2021</span><span class="pub"><span class="pub-title">Testing the elaboration likelihood model of persuasion on the acceptance of health regulations in a video human-robot interaction study</span><span class="pub-meta">L. Langholf, D. Battefeld, K. Henning, R. Zatrib, A. Groß, B. Richter, A.-L. Vollmer, <b>S. Schneider</b>. <i>Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI)</i>, pp. 121–125. <a href="https://doi.org/10.1145/3434074.3447142" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2019</span><span class="pub"><span class="pub-title">PREC 2019: Personal robots for exercising and coaching</span><span class="pub-meta"><b>S. Schneider</b>, C. A. Cifuentes, M. Munera, A. G. Ozgur, S. Griffiths. <i>ACM/IEEE International Conference on Human-Robot Interaction (HRI)</i>, pp. 679–680.</span></span></li>
+<li><span class="yr">2018</span><span class="pub"><span class="pub-title">Comparing the effects of social robots and virtual agents on exercising motivation</span><span class="pub-meta"><b>S. Schneider</b>, F. Kummert. <i>International Conference on Social Robotics (ICSR), Springer</i>, pp. 451–461. <a href="https://doi.org/10.1007/978-3-030-05204-1_44" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2018</span><span class="pub"><span class="pub-title">PREC 2018: Personal robots for exercising and coaching</span><span class="pub-meta"><b>S. Schneider</b>, B. Wrede, C. Cifuentes, S. S. Griffiths, S. Wermter. <i>Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI)</i>, pp. 401–402. <a href="https://doi.org/10.1145/3173386.3173566" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2017</span><span class="pub"><span class="pub-title">Exploring embodiment and dueling bandit learning for preference adaptation in human-robot interaction</span><span class="pub-meta"><b>S. Schneider</b>, F. Kummert. <i>IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)</i>, pp. 1325–1331. <a href="https://doi.org/10.1109/ROMAN.2017.8172476" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2017</span><span class="pub"><span class="pub-title">Does the user’s evaluation of a socially assistive robot change based on presence and companionship type?</span><span class="pub-meta"><b>S. Schneider</b>, F. Kummert. <i>Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI)</i>. <a href="https://doi.org/10.1145/3029798.3038418" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2016</span><span class="pub"><span class="pub-title">Motivational effects of acknowledging feedback from a socially assistive robot</span><span class="pub-meta"><b>S. Schneider</b>, F. Kummert. <i>International Conference on Social Robotics (ICSR), Springer</i>, pp. 870–879. <a href="https://doi.org/10.1007/978-3-319-47437-3_85" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2016</span><span class="pub"><span class="pub-title">Applied Social Robotics: Building interactive robots with LEGO Mindstorms</span><span class="pub-meta">A. Kipp, <b>S. Schneider</b>. <i>Robotics in Education, Springer</i>, pp. 29–40. <a href="https://doi.org/10.1007/978-3-319-42975-5_3" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2016</span><span class="pub"><span class="pub-title">Exercising with a humanoid companion is more effective than exercising alone</span><span class="pub-meta"><b>S. Schneider</b>, F. Kummert. <i>IEEE-RAS International Conference on Humanoid Robots (Humanoids)</i>, pp. 495–501. <a href="https://doi.org/10.1109/HUMANOIDS.2016.7803321" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2015</span><span class="pub"><span class="pub-title">Long-term feedback mechanisms for robotic assisted indoor cycling training</span><span class="pub-meta"><b>S. Schneider</b>, L. Süssenbach, I. Berger, F. Kummert. <i>International Conference on Human-Agent Interaction (HAI)</i>, pp. 157–164. <a href="https://doi.org/10.1145/2814940.2814962" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2015</span><span class="pub"><span class="pub-title">Reusable motivational instruction patterns for socially assistive robots</span><span class="pub-meta"><b>S. Schneider</b>, M. Goerlich, F. Kummert. <i>Workshop Towards Intelligent Social Robots: Current Advances in Cognitive Robotics, Korea</i>.</span></span></li>
+<li><span class="yr">2014</span><span class="pub"><span class="pub-title">A robot as fitness companion: Towards an interactive action-based motivation model</span><span class="pub-meta">L. Süssenbach, N. Riether, <b>S. Schneider</b>, I. Berger, F. Kummert, I. Lütkebohle, K. Pitsch. <i>IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)</i>, pp. 286–293. <a href="https://doi.org/10.1109/ROMAN.2014.6926267" target="_blank" rel="noopener">DOI</a></span></span></li>
+<li><span class="yr">2014</span><span class="pub"><span class="pub-title">How socially assistive robots supporting on cognitive tasks perform</span><span class="pub-meta"><b>S. Schneider</b>, N. Riether, I. Berger, F. Kummert. <i>50th Anniversary Convention of the AISB</i>.</span></span></li>
+<li><span class="yr">2012</span><span class="pub"><span class="pub-title">Social robots for long-term space missions</span><span class="pub-meta">I. Berger, A. Kipp, I. Lütkebohle, N. Riether, <b>S. Schneider</b>, L. Süssenbach, F. Kummert. <i>63rd International Astronautical Congress</i>.</span></span></li>
+<li><span class="yr">2012</span><span class="pub"><span class="pub-title">Effects of different robot interaction strategies during cognitive tasks</span><span class="pub-meta"><b>S. Schneider</b>, I. Berger, N. Riether, S. Wrede, B. Wrede. <i>International Conference on Social Robotics (ICSR), Springer</i>, pp. 496–505. <a href="https://doi.org/10.1007/978-3-642-34103-8_50" target="_blank" rel="noopener">DOI</a></span></span></li></ol>
+          </div>
+          <div class="group">
+            <h4 class="kind">Editorial and book chapter</h4>
+            <ol class="pubs"><li><span class="yr">2025</span><span class="pub"><span class="pub-title">Interactive robots for healthcare and participation</span><span class="pub-meta"><b>S. Schneider</b>, D. Silvera-Tawil, A.-L. Vollmer, A. Majewicz Fey. <i>Frontiers in Robotics and AI</i>, vol. 12, article 1750188.</span></span></li>
+<li><span class="yr">2021</span><span class="pub"><span class="pub-title">Soziale Roboter im öffentlichen Raum: Einsatzfelder und soziale Herausforderungen im Lichte aktueller Forschung</span><span class="pub-meta"><b>S. Schneider</b>. <i>Soziale Roboter: Technikwissenschaftliche, wirtschaftswissenschaftliche, philosophische, psychologische und soziologische Grundlagen</i>, pp. 401–416.</span></span></li></ol>
+          </div>
+        </div>
+      </details>
+      <p class="note">Citations and newer papers: <a href="https://scholar.google.com/citations?user=xlngtkMAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://orcid.org/0000-0003-2953-341X" target="_blank" rel="noopener">ORCID</a></p>
+    </div>
+  </section>
+
+  <section class="row" id="students">
+    <h2 class="row-label">For students</h2>
+    <div class="col">
+      <div class="prose">
+        <p>I supervise BSc and MSc theses, internships and research projects at the University of Twente, for students from programmes such as Creative Technology, Technical Computer Science, Interaction Technology and Robotics.</p>
+      </div>
+      <div class="group">
+        <h3 class="sub">Topics I supervise</h3>
+        <ul class="bullets">
+          <li>Robot coaching for exercise, physiotherapy and health behavior</li>
+          <li>Touch, haptics and object handover between people and robots</li>
+          <li>Assistive robots for people with visual impairments or intellectual disabilities</li>
+          <li>Preference learning and reinforcement learning with people in the loop</li>
+          <li>Multi-agent reinforcement learning for collaboration</li>
+          <li>Language-model-based coaching and conversational agents for health</li>
+        </ul>
+      </div>
+      <div class="group">
+        <h3 class="sub">How to get in touch</h3>
+        <div class="prose">
+          <p>If one of these areas fits your interests, send an email to <a href="mailto:s.schneider@utwente.nl">s.schneider@utwente.nl</a> with your study programme, the kind of project (thesis, internship, Research Topics or Capita Selecta) and your planned start date. A short paragraph on what you would like to work on is enough.</p>
+          <p>Examples of completed theses are listed under <a href="#teaching">Teaching</a>.</p>
+        </div>
+      </div>
+      <div class="group">
+        <h3 class="sub">PhD applicants and visitors</h3>
+        <div class="prose">
+          <p>I currently have no funding for PhD positions. If you have your own funding, for example a scholarship or fellowship, I am happy to welcome you and to talk about a project.</p>
+          <p>Guest researchers and visiting students are welcome as well.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="row" id="teaching">
+    <h2 class="row-label">Teaching</h2>
+    <div class="col">
+      <div class="group">
+        <h3 class="sub">Courses</h3>
+        <dl class="kv">
+          <dt>Twente, since 2024</dt>
+          <dd><a class="plain" href="https://utwente.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=202200102&amp;collegejaar=2023&amp;taal=en" target="_blank" rel="noopener">Human-Robot Communication</a> and <a class="plain" href="https://utwente.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=202200113&amp;collegejaar=2024&amp;taal=en" target="_blank" rel="noopener">Human-Robot Collaboration</a>, each as lecture and exercise.
+            <small>Project supervision in Robotics and Interaction Technology: internships, Capita Selecta and Research Topics.</small></dd>
+          <dt>TH Köln, 2021</dt>
+          <dd>Human-Machine Interaction, lecture and exercise.</dd>
+          <dt>Bielefeld, 2014 – 19</dt>
+          <dd>Social Robotics and Applied Social Robotics, plus seminars on the ethical and social aspects of robots.</dd>
+        </dl>
+      </div>
+
+      <div class="group">
+        <h3 class="sub">Supervision</h3>
+        <dl class="kv">
+          <dt>PhD, ongoing</dt>
+          <dd>
+            <ul>
+              <li>Bas van der Kaaden <small>Social-physical human-robot interaction for physiotherapy and coaching</small></li>
+              <li>Lydia Penkert <small>Social touch in human-robot interaction with people with intellectual disabilities</small></li>
+              <li>Hideki Garcia Goo <small>Sorry Seems To Be The Hardest Word: contextual factors on forgiveness towards healthcare robots</small></li>
+            </ul>
+          </dd>
+          <dt>BSc and MSc</dt>
+          <dd>26 completed theses (10 MSc, 16 BSc) at Twente and Bielefeld.</dd>
+        </dl>
+        <details class="more">
+          <summary>Completed theses</summary>
+          <div class="more-body">
+            <div class="group">
+              <h4 class="kind">University of Twente</h4>
+              <ul class="theses"><li><span class="thesis-title">Talk to Me About How You Handle My Data: Personality-Based Approaches to Interactive Transparency Enhancement in Human-Robot Interaction</span><span class="thesis-meta">MSc Interaction Technology</span></li>
+<li><span class="thesis-title">Assessing workers psychological well-being in a human-robot collaboration context through a newly adapted scale</span><span class="thesis-meta">MSc Interaction Technology</span></li>
+<li><span class="thesis-title">Conversational Nutrition: Enhancing Dietary Assessment with a User-Centered AI Chatbot</span><span class="thesis-meta">MSc Interaction Technology</span></li>
+<li><span class="thesis-title">Disassembling the Problem – A Frame Creation-Based Strategy for Human-Centered Automation in ELV Recycling</span><span class="thesis-meta">MSc Interaction Technology</span></li>
+<li><span class="thesis-title">Recognizing Intentional and Unintentional Human Obstructions During Social Navigation In Indoor Environments</span><span class="thesis-meta">MSc Robotics</span></li>
+<li><span class="thesis-title">Designing nature-inspired soundscapes for robots and evaluating their perception by farmers and animals</span><span class="thesis-meta">MSc Interaction Technology</span></li>
+<li><span class="thesis-title">Decentralized Intrinsically Motivated Multi Agent Reinforcement Learning: A Study on different types of Agent Collaboration</span><span class="thesis-meta">MSc Interaction Technology</span></li>
+<li><span class="thesis-title">The Use of Sonification for Spatial Guidance in Human-Robot Handovers for Blind and Visually Impaired Users</span><span class="thesis-meta">BSc Technology and Liberal Arts &amp; Sciences</span></li>
+<li><span class="thesis-title">Comparing Effectiveness of Robot Ball Behaviour Patterns at stimulating Physical Activity through Play in Physical Therapy</span><span class="thesis-meta">BSc Technical Computer Science</span></li>
+<li><span class="thesis-title">Evaluating Decentralized Q-Learning in Multi-Agent Overcooked Environments</span><span class="thesis-meta">BSc Technical Computer Science</span></li>
+<li><span class="thesis-title">Active or Reactive: Comparing Feedback Timing Strategies for Squat Exercises Coached by a Socially Assistive Robot</span><span class="thesis-meta">BSc Business Information Technology</span></li>
+<li><span class="thesis-title">A social robot as a supporting tool for enhancing self-management behaviours in individuals with type 2 diabetes</span><span class="thesis-meta">BSc Creative Technology</span></li>
+<li><span class="thesis-title">Non-stationary preference learning in online human-robot interaction</span><span class="thesis-meta">BSc Business Information Technology</span></li>
+<li><span class="thesis-title">Designing a socially assistive robot to aid in healthy loading for people with knee osteoarthritis</span><span class="thesis-meta">BSc Creative Technology</span></li>
+<li><span class="thesis-title">Encouraging Stair Use: How to Motivate People to Choose Stairs Over the Elevator?</span><span class="thesis-meta">BSc Creative Technology</span></li>
+<li><span class="thesis-title">Judgmental Elevation: Designing a Sarcastic Smart System to Nudge Users Towards a Healthier Tomorrow</span><span class="thesis-meta">BSc Creative Technology</span></li>
+<li><span class="thesis-title">Large Language Model-Based Sport Coaching System Using Retrieval-Augmented Generation and User Models</span><span class="thesis-meta">BSc Technical Computer Science</span></li>
+<li><span class="thesis-title">A Comparative Study of Touch Feedback in Coaching Scenarios: Haptic Vest vs. Embodied Social Robot in Squatting Exercises</span><span class="thesis-meta">BSc Technical Computer Science</span></li></ul>
+            </div>
+            <div class="group">
+              <h4 class="kind">Bielefeld University</h4>
+              <ul class="theses"><li><span class="thesis-title">Using abstract Movement-Patterns in a Robot-Guided Learning Scenario for Indoor Rowering</span><span class="thesis-meta">MSc Intelligent Systems</span></li>
+<li><span class="thesis-title">Human-Robot Object Handover under Visual Impairment</span><span class="thesis-meta">MSc Intelligent Systems</span></li>
+<li><span class="thesis-title">Modeling speech-accompanying movements for humanoid robots with BML</span><span class="thesis-meta">MSc Intelligent Systems</span></li>
+<li><span class="thesis-title">A personality-based User Model to Predict Exercising Preferences</span><span class="thesis-meta">BSc Cognitive Computer Science</span></li>
+<li><span class="thesis-title">Predicting Exercising Fatigue and Exhaustion based on Facial Action Units</span><span class="thesis-meta">BSc Cognitive Computer Science</span></li>
+<li><span class="thesis-title">A Biological Inspired Architecture Design for Socially Evocative Robots</span><span class="thesis-meta">BSc Cognitive Computer Science</span></li>
+<li><span class="thesis-title">Classification of Exhaustion based on Facial Action Units</span><span class="thesis-meta">BSc Cognitive Computer Science</span></li>
+<li><span class="thesis-title">A Chat Bot for Mental Health Applications</span><span class="thesis-meta">BSc Cognitive Computer Science</span></li></ul>
+            </div>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="row" id="career">
+    <h2 class="row-label">Career</h2>
+    <div class="col">
+      <div class="group">
+        <h3 class="sub">Positions</h3>
+        <ol class="timeline"><li><span class="when">Jan 2024 – now</span><div class="job"><p class="job-head"><span class="role">Assistant Professor</span> <span class="now">Now</span><span class="org">Human Media Interaction, University of Twente</span></p><p class="what">Research on AI and robotics for health coaching and social-physical human-robot interaction. Designs and teaches the human-robot interaction courses of the MSc Robotics.</p></div></li>
+<li><span class="when">Nov 2022 – Dec 2023</span><div class="job"><p class="job-head"><span class="role">Data Scientist</span><span class="org"><a href="https://miele-d.com/big-in-data-mit-data-science-wird-miele-immer-besser/" target="_blank" rel="noopener">Machine Learning and AI Group</a>, Miele &amp; Cie. KG</span></p><p class="what">Data-driven prototypes, services and products for connected appliances, from model design to rollout and monitoring (MLOps with mlflow, dvc and Azure ML).</p></div></li>
+<li><span class="when">May 2021 – Jun 2022</span><div class="job"><p class="job-head"><span class="role">Postdoc</span><span class="org"><a href="https://www.th-koeln.de/anlagen-energie-und-maschinensysteme/cologne-cobots-lab-startseite_60861.php" target="_blank" rel="noopener">Cologne Cobots Lab</a>, TH Köln</span></p><p class="what">Coordinated the BMBF-funded project SKILLLED with DB Systel: conversational AI, virtual agents and robots for public spaces such as train stations and museums.</p></div></li>
+<li><span class="when">Apr 2020 – Apr 2021</span><div class="job"><p class="job-head"><span class="role">Postdoc</span><span class="org"><a href="https://www.uni-bielefeld.de/fakultaeten/soziologie/forschung/projekte/predict/" target="_blank" rel="noopener">Faculty of Sociology</a>, Bielefeld University</span></p><p class="what">Text mining and topic modeling on the rise of precision medicine over two decades, in the ERC-funded Predict project.</p></div></li>
+<li><span class="when">Oct 2019 – Mar 2020</span><div class="job"><p class="job-head"><span class="role">Specially appointed researcher</span><span class="org"><a href="https://www.robot.soc.i.kyoto-u.ac.jp/en/" target="_blank" rel="noopener">HRI Laboratory</a>, Kyoto University</span></p><p class="what">JST-funded work on persuasive mobile robots that increase rule adherence in public spaces, and on how people perceive a robot’s authority and morality.</p></div></li>
+<li><span class="when">Aug 2017 – Sep 2019</span><div class="job"><p class="job-head"><span class="role">Research associate</span><span class="org">Applied Informatics, Bielefeld University</span></p><p class="what">Lectured Social Robotics; preference-based reinforcement learning for robot skill learning; human-robot handover under visual impairment.</p></div></li>
+<li><span class="when">Nov 2017 – Jan 2018</span><div class="job"><p class="job-head"><span class="role">Visiting researcher</span><span class="org"><a href="http://www.er.ams.eng.osaka-u.ac.jp/asadalab/?lang=en" target="_blank" rel="noopener">Asada</a> and <a href="https://developmental-robotics.jp/en/home/" target="_blank" rel="noopener">Nagai</a> Labs, Osaka University / CiNet</span></p><p class="what">Reinforcement learning inspired by developmental psychology for cooperative human-robot interaction.</p></div></li>
+<li><span class="when">Aug 2014 – Jul 2017</span><div class="job"><p class="job-head"><span class="role">Research scholar</span><span class="org"><a href="https://www.cit-ec.de/de" target="_blank" rel="noopener">CITEC Center of Excellence</a>, Bielefeld University</span></p><p class="what">Robotic exercising companions for health care, and a general framework for building socially assistive interaction scenarios.</p></div></li></ol><details class="more"><summary>Earlier positions, 2011 to 2014</summary><div class="more-body"><ol class="timeline"><li><span class="when">Aug 2013 – Jul 2014</span><div class="job"><p class="job-head"><span class="role">Research scholar</span><span class="org">Applied Informatics, Bielefeld University</span></p><p class="what">Taught social robotics; analysis and dissemination of long-term human-robot interaction data.</p></div></li>
+<li><span class="when">Oct 2011 – Jul 2013</span><div class="job"><p class="job-head"><span class="role">Research associate</span><span class="org"><a href="https://www.uni-bielefeld.de/zwe/cor-lab/projekte/sozirob.xml" target="_blank" rel="noopener">Cognition and Robotics Lab</a>, Bielefeld University</span></p><p class="what">Long-term motivational strategies for socially assistive robots in the SoziRob project, with longitudinal experiments run together with the German Aerospace Center (DLR).</p></div></li></ol></div></details>
+      </div>
+
+      <div class="group">
+        <h3 class="sub">Education</h3>
+        <dl class="kv">
+          <dt>2011 – 2019</dt>
+          <dd>Dr.-Ing. in Intelligent Systems, Bielefeld University, magna cum laude
+            <small>Dissertation: Socially Assistive Robots for Exercising Scenarios</small></dd>
+          <dt>2009 – 2011</dt>
+          <dd>M.Sc. in Intelligent Systems, Bielefeld University
+            <small>Study abroad at the University of Helsinki and Aalto University</small></dd>
+          <dt>2006 – 2009</dt>
+          <dd>B.Sc. in Bioinformatics and Genome Research, Bielefeld University</dd>
+        </dl>
+      </div>
+
+      <div class="group">
+        <h3 class="sub">Scholarships and funding</h3>
+        <dl class="kv">
+          <dt>Since 2024</dt>
+          <dd>Starting package for the assistant professorship, <a class="plain" href="https://www.sectorplan-betatechniek.nl/" target="_blank" rel="noopener">Sectorplan Bèta en Techniek</a></dd>
+          <dt>2019 – 2020</dt>
+          <dd>Postdoctoral research funding, <a class="plain" href="https://www.jst.go.jp/EN/" target="_blank" rel="noopener">Japan Science and Technology Agency</a></dd>
+          <dt>2014 – 2018</dt>
+          <dd>PhD scholarship, <a class="plain" href="https://www.cit-ec.de/en/graduate-school" target="_blank" rel="noopener">CITEC Graduate School</a>, Bielefeld University</dd>
+          <dt>2017 – 2018</dt>
+          <dd>Exchange scholarship Bielefeld–Osaka, <a class="plain" href="https://www.codefror.eu/" target="_blank" rel="noopener">CODEFROR</a></dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="row" id="service">
+    <h2 class="row-label">Service</h2>
+    <div class="col">
+      <dl class="kv">
+        <dt>Organizing</dt>
+        <dd>
+          <ul>
+            <li>Registration Co-Chair, <a class="plain" href="https://humanrobotinteraction.org/2027" target="_blank" rel="noopener">ACM/IEEE HRI ’27</a></li>
+            <li>Local Organizing Co-Chair, <a class="plain" href="https://www.ro-man2025.org/" target="_blank" rel="noopener">IEEE RO-MAN ’25</a></li>
+            <li>Publication Co-Chair, <a class="plain" href="https://hai-conference.net/hai2022/organizers/" target="_blank" rel="noopener">HAI ’22</a></li>
+          </ul>
+        </dd>
+        <dt>Program committees</dt>
+        <dd>Area or session chair and PC member for HRI (’21, ’27), HAI (’22 to ’26), IEEE RO-MAN (’25, ’26) and ICSR (’25).</dd>
+        <dt>Workshops</dt>
+        <dd>
+          <ul>
+            <li>Personal Robots for Exercising and Coaching <small>ACM/IEEE HRI <a href="https://humanrobotinteraction.org/2018/workshops/index.html" target="_blank" rel="noopener">’18</a> and <a href="https://humanrobotinteraction.org/2019/program/workshops/index.html" target="_blank" rel="noopener">’19</a></small></li>
+            <li><a class="plain" href="https://www.dfki.de/web/news/iaa-workshop0" target="_blank" rel="noopener">Human-AI Symbiosis</a> <small>International Workshop on IAA, 2019</small></li>
+            <li><a class="plain" href="https://sites.google.com/view/hripublicspaces2022/home" target="_blank" rel="noopener">Human-Robot Interaction in Public Spaces</a> <small>ACM/IEEE HRI ’22</small></li>
+            <li><a class="plain" href="https://sites.google.com/view/iraih" target="_blank" rel="noopener">Interactive Robots for Healthcare</a> <small>Intl. Conference on Intelligent Robots ’24</small></li>
+          </ul>
+        </dd>
+        <dt>Reviewing</dt>
+        <dd>ACM Transactions on Human-Robot Interaction, IEEE Transactions on Cognitive and Developmental Systems, IEEE Robotics and Automation Letters, International Journal of Social Robotics, Interaction Studies, Paladyn.
+          <small>Conferences: HRI, HAI, RO-MAN, ICSR, ICDL, IROS, SMC, Living Machines.</small></dd>
+        <dt>University</dt>
+        <dd><a class="plain" href="https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/fakultaet/gremien/gleichstellung/" target="_blank" rel="noopener">Equal Opportunity, Faculty of Technology</a> and <a class="plain" href="https://cit-ec.de/en/citec-ethics-group" target="_blank" rel="noopener">CITEC Ethics group</a>, Bielefeld University, 2015 to 2019.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="row" id="contact">
+    <h2 class="row-label">Contact</h2>
+    <div class="col">
+      <div class="group">
+        <div class="email-row">
+          <a class="email" id="email-address" href="mailto:s.schneider@utwente.nl">s.schneider@utwente.nl</a>
+          <button class="btn" type="button" data-copy="email-address">Copy address</button>
+        </div>
+        <p class="note">Human Media Interaction, Faculty of Electrical Engineering, Mathematics and Computer Science, University of Twente.<br>Citadel, room H208, Hallenweg 15, 7522 NH Enschede, Netherlands.</p>
+        <p class="profile-links">
+          <a href="https://people.utwente.nl/s.schneider" target="_blank" rel="noopener">University profile</a>
+          <a href="https://scholar.google.com/citations?user=xlngtkMAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org/0000-0003-2953-341X" target="_blank" rel="noopener">ORCID</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span>© 2026 Sebastian Schneider</span>
+    <span>Last updated October 2026</span>
+  </footer>
+
+</main>
+
+<script>
+(function () {
+  // Copy buttons: copy the text of the element named in data-copy; fall back to
+  // selecting it when the clipboard is unavailable.
+  Array.prototype.forEach.call(document.querySelectorAll('[data-copy]'), function (btn) {
+    var source = document.getElementById(btn.getAttribute('data-copy'));
+    if (!source) return;
+    var idle = btn.textContent;
+    var reset = function () { setTimeout(function () { btn.textContent = idle; }, 2000); };
+    var selectIt = function () {
+      var range = document.createRange();
+      range.selectNodeContents(source);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      btn.textContent = 'Text selected';
+      reset();
+    };
+    btn.addEventListener('click', function () {
+      var text = source.textContent.trim();
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () {
+          btn.textContent = 'Copied';
+          reset();
+        }, selectIt);
+      } else {
+        selectIt();
+      }
+    });
+  });
+
+  // Mark the section currently in view in the top navigation.
+  var links = Array.prototype.slice.call(document.querySelectorAll('.topnav a'));
+  if (!('IntersectionObserver' in window) || !links.length) return;
+  var byId = {};
+  links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      links.forEach(function (a) { a.removeAttribute('aria-current'); });
+      var link = byId[entry.target.id];
+      if (link) link.setAttribute('aria-current', 'true');
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+  document.querySelectorAll('section.row[id]').forEach(function (s) { io.observe(s); });
+})();
+
+</script>
+</body>
+</html>
